@@ -9,10 +9,10 @@ class BudgetCategory extends Component {
 
     switch(this.props.type) {
         case('income'):
-            category = <div className={classes.Income}></div>;
+            category = <div className={classes.Income}>Salary</div>;
             break;
         case('expense'):
-            category = <div className={classes.Expense}></div>;
+            category = <div className={classes.Expense}>Food</div>;
             break;
         default: 
             category = null;  
