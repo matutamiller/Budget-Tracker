@@ -1,0 +1,15 @@
+.Income {
+    width: 85%;
+    height: 7%;
+    margin: 2% auto;
+    background: linear-gradient(#228c1d, #91ce50);
+    border-radius: 20px;
+}
+
+.Expense {
+    width: 85%;
+    height: 7%;
+    margin: 2% auto;
+    background: linear-gradient(#c70202, #fd2f14);
+    border-radius: 20px;
+}
