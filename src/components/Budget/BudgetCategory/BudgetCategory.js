@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 import classes from './BudgetCategory.css';
 
-const budgetCategory = (props) => {
-    let category = null;
+class BudgetCategory extends Component {
+    render() {
+        let category = null;
 
-    switch(props.type) {
+    switch(this.props.type) {
         case('income'):
             category = <div className={classes.Income}></div>;
             break;
@@ -14,9 +16,14 @@ const budgetCategory = (props) => {
             break;
         default: 
             category = null;  
-    }
+        }
 
-    return category;
+        return category;
+    }
+}
+
+BudgetCategory.propTypes = {
+    type: PropTypes.string.isRequired
 };
 
-export default budgetCategory;
+export default BudgetCategory;
