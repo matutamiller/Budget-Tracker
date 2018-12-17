@@ -12,7 +12,7 @@ class BudgetCategory extends Component {
             category = <div className={classes.Income}>Salary</div>;
             break;
         case('expense'):
-            category = <div className={classes.Expense}>Food</div>;
+            category = <div className={classes.Expense}>Rent</div>;
             break;
         default: 
             category = null;  

@@ -4,14 +4,14 @@ import BudgetCategory from './BudgetCategory/BudgetCategory';
 
 const budget = (props) => {
     return (
-        <div className={classes.Budget}>
-            <BudgetCategory type="income"/>
-            <BudgetCategory type="expense"/>
-            <BudgetCategory type="income"/>
-            <BudgetCategory type="expense"/>
-            <BudgetCategory type="income"/> 
-            <BudgetCategory type="expense"/>
-            
+        <div className={classes.Wrapper}>
+            <div className={classes.IncomeTotal}>Income: 2000</div>
+            <div className={classes.ExpenseTotal}>Expence: 1000</div>
+            <div className={classes.Budget}>
+                <BudgetCategory type="income"/>
+                <BudgetCategory type="expense"/>
+            </div>
+            <div>Balance: 1000</div>
         </div>
     );
 };
