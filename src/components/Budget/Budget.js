@@ -5,7 +5,7 @@ import BudgetCategory from './BudgetCategory/BudgetCategory';
 const budget = (props) => {
     return (
         <div className={classes.Wrapper}>
-            <div className={classes.IncomeTotal}>Income: 2000</div>
+            <div className={classes.IncomeTotal}>Income: 3000</div>
             <div className={classes.ExpenseTotal}>Expence: 1000</div>
             <div className={classes.Budget}>
                 <BudgetCategory type="income"/>
