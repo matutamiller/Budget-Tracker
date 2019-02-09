@@ -7,7 +7,7 @@ class BudgetTracker extends Component {
         return (
             <Aux>
                 <Budget />
-                <div>Build Controls</div>
+                <div>Controls</div>
             </Aux>
         );
     }
